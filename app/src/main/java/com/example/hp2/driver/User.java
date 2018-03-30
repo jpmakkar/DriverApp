@@ -23,9 +23,19 @@ public class User implements Serializable {
     String reenter;
     String address;
     String gender;
-    int phone_no;
+    String phone_no;
     String city;
-    int zip_code;
+    String zip_code;
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    String image;
 
 
     public User(){
@@ -82,11 +92,11 @@ public class User implements Serializable {
         this.gender = gender;
     }
 
-    public int getPhone_no() {
+    public String getPhone_no() {
         return phone_no;
     }
 
-    public void setPhone_no(int phone_no) {
+    public void setPhone_no(String phone_no) {
         this.phone_no = phone_no;
     }
 
@@ -98,11 +108,11 @@ public class User implements Serializable {
         this.city = city;
     }
 
-    public int getZip_code() {
+    public String getZip_code() {
         return zip_code;
     }
 
-    public void setZip_code(int zip_code) {
+    public void setZip_code(String zip_code) {
         this.zip_code = zip_code;
     }
 

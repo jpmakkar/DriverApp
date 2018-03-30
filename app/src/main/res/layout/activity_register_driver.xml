@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:orientation="vertical"
-tools:context="com.example.hp2.driver.RegisterUser"
-android:weightSum="1">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp2.driver.RegisterDriver"
+    android:weightSum="1">
 
     <ScrollView
         android:layout_width="fill_parent"
@@ -26,7 +26,7 @@ android:weightSum="1">
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="Register Yourself"
+                android:text="Register - Driver"
 
 
                 android:textColor="@color/colorPrimary"
@@ -140,6 +140,7 @@ android:weightSum="1">
                 android:hint="Zip code"
                 android:inputType="phone"
                 android:textSize="18dp" />
+
 
             <Button
                 android:id="@+id/register"

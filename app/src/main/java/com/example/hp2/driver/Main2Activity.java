@@ -44,7 +44,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         ButterKnife.inject(this);
-        f3=new Firebase("https://driver-e8f62.firebaseio.com/user");
+        f3=new Firebase("https://driverz-a56f8.firebaseio.com/user");
         user = new User();
         btnSignUp.setOnClickListener(this);
         rbMale.setOnClickListener(this);
